@@ -1,5 +1,7 @@
 package com.reactive.trial.stocktrader.model;
 
+import java.math.BigDecimal;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,7 +15,7 @@ public class Stock {
 
 	private String id;
 	private String name;
-	private String price;
+	private BigDecimal price;
 	private String currency;
 
 }
